@@ -78,9 +78,6 @@ body{
     display: flex;
     align-items: center;
     background-color: rgb(247, 239, 210);
-    /* text-decoration: none;
-    color: black;
-    margin: 10px; */
 }
 
 .lower-left{
@@ -117,32 +114,34 @@ body{
     width: 180px;
     margin-block: 15px;
     border-radius: 10px;
+    margin-right: 50px;
  }
  
  .movie-content{
     cursor: pointer;
+    display: flex;
  }
 
  .first-movie{
-    margin-left: 110px;
+    margin-left: 100px;
  }
- .movie-content{
-    display: flex;
- }
+ /* .movie-content{
+ } */
  .sec-movie{
-    padding-left: 30px;
+    padding-left: 50px;
  }
  .third-movie{
-    padding-left:100px;
+    padding-left:120px;
  }
  .fourth-movie{
-    padding-left:80px;
+    padding-left:100px;
  }
  .fifth-movie{
-    padding-left:50px;
+    padding-left: 65px;
  }
  .movie-list{
     background-color: rgb(251, 247, 247);
+    padding-bottom: 20px;    
  }
 
 /* shalini */
@@ -182,9 +181,14 @@ h2{
     cursor: pointer;
 }
 
+.pre-head a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
 .pre-head{
     margin-left: 15px;
-    font-size: 20px;
 }
 
 .see-all{
@@ -224,16 +228,18 @@ h2{
 .premiere-list{
     display: flex;
     cursor: pointer;
-    color: white;
+    /* color: white; */
 }
 
 .premiere #name{
     font-size: 20px;
     margin-top: 12px;
     font-weight: 550;
+    color: white;
 }
 
 .premiere p{
     font-size: 18px;
     margin-top: 8px;
+    color: white;
 }
