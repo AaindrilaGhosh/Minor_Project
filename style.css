@@ -95,56 +95,47 @@ body{
     margin: 10px;
 }
 
-/* aishi */
-.movies h2{
-    margin-left: 100px;
+/* aishi's part */
+ .movies-container{
+    background-color: rgb(251, 247, 247);
+ } 
+
+ .movies h2{
+    padding-left: 80px;
     padding-top: 20px;
  }
+.others {
+    text-align: right;
+    position: relative;
+    right: 90px;
+    bottom: 22px;/
+}
+.others a{
+    text-decoration: none;
+}
  
- .movies.movie-name{
-    display: flex;
-    cursor: pointer;
- }
- 
- .movie-name{
-    margin-left: 100px;
- }
- 
- .movie-name img{
+ .movie-list img{
     width: 180px;
-    margin-block: 15px;
+    height: 300px;
+    margin: 0 60px 0 0;
     border-radius: 10px;
-    margin-right: 50px;
- }
- 
- .movie-content{
-    cursor: pointer;
+}
+ .arrow{
+    position: relative;
+    top: 120px;
+    right: 80px;
+}
+ .movie-list{ 
     display: flex;
+    padding-bottom: 20px;
+    margin-left: 90px;
  }
 
- .first-movie{
-    margin-left: 100px;
- }
- /* .movie-content{
- } */
- .sec-movie{
-    padding-left: 50px;
- }
- .third-movie{
-    padding-left:120px;
- }
- .fourth-movie{
-    padding-left:100px;
- }
- .fifth-movie{
-    padding-left: 65px;
- }
- .movie-list{
-    background-color: rgb(251, 247, 247);
-    padding-bottom: 20px;    
+ .movie-name h4{
+    margin-top: 10px;
  }
 
-/* shalini */
+/* shalini's part */
 .banner img{
     width:100%;
     margin-top:44px;
@@ -227,8 +218,6 @@ h2{
 
 .premiere-list{
     display: flex;
-    cursor: pointer;
-    /* color: white; */
 }
 
 .premiere #name{
@@ -242,4 +231,11 @@ h2{
     font-size: 18px;
     margin-top: 8px;
     color: white;
+}
+
+.premieres-right-icon{
+    position: relative;
+    right: 75px;
+    top: 145px;
+    padding: 5px;
 }
