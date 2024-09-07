@@ -149,12 +149,19 @@ body{
     cursor: pointer;
 }
 .card img{
-    width:18%;
-    margin-block: 18px;
+    width:17%;
+    /* margin-block: 20px; */
+    margin: 20px 25px 70px 15px;
     border-radius: 5px;
 }
 h2{
     margin-left: 10px;
+}
+
+.live-events-right-icon{
+    position: relative;
+    right: 43px;
+    bottom: 25px;
 }
 
 /*Me again*/
